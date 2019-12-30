@@ -1,0 +1,11 @@
+C:\Users\Outmane.BALADI\source\repos\Features\Features\bin\Debug\netcoreapp3.0\Features.exe
+C:\Users\Outmane.BALADI\source\repos\Features\Features\bin\Debug\netcoreapp3.0\Features.deps.json
+C:\Users\Outmane.BALADI\source\repos\Features\Features\bin\Debug\netcoreapp3.0\Features.runtimeconfig.json
+C:\Users\Outmane.BALADI\source\repos\Features\Features\bin\Debug\netcoreapp3.0\Features.runtimeconfig.dev.json
+C:\Users\Outmane.BALADI\source\repos\Features\Features\bin\Debug\netcoreapp3.0\Features.dll
+C:\Users\Outmane.BALADI\source\repos\Features\Features\bin\Debug\netcoreapp3.0\Features.pdb
+C:\Users\Outmane.BALADI\source\repos\Features\Features\obj\Debug\netcoreapp3.0\Features.csprojAssemblyReference.cache
+C:\Users\Outmane.BALADI\source\repos\Features\Features\obj\Debug\netcoreapp3.0\Features.AssemblyInfoInputs.cache
+C:\Users\Outmane.BALADI\source\repos\Features\Features\obj\Debug\netcoreapp3.0\Features.AssemblyInfo.cs
+C:\Users\Outmane.BALADI\source\repos\Features\Features\obj\Debug\netcoreapp3.0\Features.dll
+C:\Users\Outmane.BALADI\source\repos\Features\Features\obj\Debug\netcoreapp3.0\Features.pdb
