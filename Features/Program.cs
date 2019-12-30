@@ -30,10 +30,7 @@ namespace Features
             Console.WriteLine("******************");
 
             foreach(var employee in developers.Where(
-                delegate(Employee employee)
-                {
-                    return employee.Name.StartsWith('O');
-                }))
+                e => e.Name.StartsWith('O')))
             {
                 Console.WriteLine(employee.Name);
             }
