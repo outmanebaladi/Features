@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using Features.Linq;
+using System.Linq;
 
 namespace Features
 {
@@ -20,12 +20,24 @@ namespace Features
             };
 
             Console.WriteLine(developers.Count());
+            Console.WriteLine("******************");
 
             IEnumerator<Employee> enumerator = developers.GetEnumerator();
             while (enumerator.MoveNext())
             {
                 Console.WriteLine(enumerator.Current.Name);
             }
+            Console.WriteLine("******************");
+
+            foreach(var employee in developers.Where(NameStartsWithO))
+            {
+                Console.WriteLine(employee.Name);
+            }
+        }
+
+        private static bool NameStartsWithO(Employee employee)
+        {
+            return employee.Name.StartsWith('O');
         }
     }
 }
