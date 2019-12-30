@@ -29,15 +29,14 @@ namespace Features
             }
             Console.WriteLine("******************");
 
-            foreach(var employee in developers.Where(NameStartsWithO))
+            foreach(var employee in developers.Where(
+                delegate(Employee employee)
+                {
+                    return employee.Name.StartsWith('O');
+                }))
             {
                 Console.WriteLine(employee.Name);
             }
-        }
-
-        private static bool NameStartsWithO(Employee employee)
-        {
-            return employee.Name.StartsWith('O');
         }
     }
 }
