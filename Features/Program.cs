@@ -39,8 +39,14 @@ namespace Features
             }
             Console.WriteLine("******************");
 
-            foreach(var employee in developers.Where(
-                e => e.Name.StartsWith('O')))
+            //var query = developers.Where(e => e.Name.Length == 5)
+            //               .OrderBy(e => e.Name);
+            var query = from developer in developers
+                        where developer.Name.Length == 5
+                        orderby developer.Name
+                        select developer;
+
+            foreach(var employee in query)
             {
                 Console.WriteLine(employee.Name);
             }
